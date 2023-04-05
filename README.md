@@ -1,6 +1,6 @@
 # POLO TECH - MÓDULO REACT 2 
 
-## Aula 1 - Introdução ao React e TypeScrip 
+## Aula 1 - Introdução ao React e TypeScript 
 
 ### Tarefas 
 
