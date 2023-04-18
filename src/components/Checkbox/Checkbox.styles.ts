@@ -39,6 +39,7 @@ overflow: hidden;
 
 export const Text = styled.label<CheckboxProps>`
    color: ${props => props.checked ? '#FFF' : '#555'};
+   text-decoration: ${props => props.checked ? 'line-through': 'none'}
 `;
 
 export const StyledCheckbox = styled.label<CheckboxProps>`

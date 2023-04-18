@@ -1,5 +1,5 @@
 import React from "react";
-import StyledSpacer, {StyledSpacerProps} from './Spacer.styles'
+import StyledSpacer, {StyledSpacerProps} from './styles'
 
 const Spacer = ({width, height , flex} : StyledSpacerProps ) => {
   return(

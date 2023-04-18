@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import checkIcon from '../../assets/tick.png'
+import { Itasks } from '../ListView/types';
 
 import {
    CheckboxContainer,
@@ -8,8 +9,11 @@ import {
    Text
 } from './Checkbox.styles';
 
+interface propsCheckbox {
+   title: string
+}
 
-const Checkbox = () => {
+const Checkbox = (props: propsCheckbox) => {
   
  const [checked, SetChecked] = useState(false)
 
@@ -33,7 +37,7 @@ const Checkbox = () => {
             src={checkIcon}
          />
  </StyledCheckbox>
- <Text checked={checked}>Tarefa 1</Text>
+ <Text checked={checked}>{props.title}</Text>
  </CheckboxContainer>)
 }
 

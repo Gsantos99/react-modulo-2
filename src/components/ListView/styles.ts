@@ -1,11 +1,9 @@
-import { type } from "os";
 import styled from "styled-components";
 
 export const ListContainer = styled.div`
 display: flex;
 margin: 0 auto;
 padding: 20px;
-/* background-color:lightcoral; */
 flex-direction: column;
 align-items: stretch;
 width: 30rem;
